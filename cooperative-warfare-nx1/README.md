@@ -1,5 +1,10 @@
 # Cooperative Warfare - NX1 (Nexus Co-Op)
 
-Co-op work for the NX1 campaign (Nexus Co-Op). No game data or game scripts are in this repo. Work in progress; project notes in `notes/`.
+Co-op patcher for the NX1 campaign (nx_harbor, nx_hospital, nx_border and the common zone). `tools/nx1_patch.py` edits the plain-source scripts inside your own fastfiles in place (size-preserving), keeping `.orig` backups.
+
+**No game data or game scripts are in this repo.** Animation test fastfiles and script dumps are not published.
+
+- `tools/` - `nx1_patch.py`, the `apply_*.bat` wrappers and restore script, plus the extract/names helpers. `README.txt` is the release readme (v0.2.8).
+- `notes/` - project notes.
 
 Licence for our own code: MIT (see LICENSE).
